@@ -2,7 +2,7 @@ import "./experience.css"
 
 const Experience = () => {
   return (
-    <div>
+    <div className="experience">
         <div className="experience-title">
             <h1>Experience</h1>
         </div>
@@ -113,16 +113,16 @@ const Experience = () => {
                     </div>
                     <div className="wrapseven">
                     <div className="dateseven">
-                            <h3>October 2020 - April 2021</h3>
+                            <h3>October 2016 - December 2016</h3>
                         </div>
                         <div className="nameseven">
-                            <h4>Associate - Amazon, Ontario</h4>
+                            <h4>Freelancer- Media, Carma Media Intelligence</h4>
                         </div>
                         <div className="ex-desc-seven">
                             <p>
                                 <ul>
-                                    <li>Sorting packages into the designated container - Learned Organizational Skills</li>
-                                    <li>Sending Packages to each associate to stow into pods - Learned management of items for people to work on</li>
+                                    <li>Monitoring Client's presence on print media and Online</li>
+                                    <li>Contacting various outlets to develop business opportunities</li>
                                 </ul>
                             </p>
                         </div>

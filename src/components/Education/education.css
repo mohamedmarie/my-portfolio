@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    background-color: lightcyan;
 }
 .education-wrap{
     width: 55%;
@@ -39,72 +40,6 @@
     border-style: solid;
     border-color: blue;
     border-width: 3px;
-}
-@media(max-width:900px){
-    .education{
-        display: flex;
-        height: 100vh;
-        width: 55%;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-    }
-    .education-wrap{
-        width: 55%;
-        height: 50%;
-        font-size: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        border-radius: 5%;
-    }
-    .education-title{
-        border-style:none;
-        border-color: blue;
-        text-decoration: underline;
-        border-width: 3px;
-        margin-top: 5px;
-    }
-    .education-school{
-        margin: 0;
-        border-style: solid;
-        border-width:1px ;
-    }
-    .education-uni{
-        border-style: solid;
-        border-width:1px ;
-        margin: 0;
-    }
-    .coursewrap{
-        width: 55%;
-        height: 50%;
-        font-size: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        border-radius: 5%;
-    }
-    .course-title{
-        border-style: none;
-        text-decoration: underline;
-        border-color: blue;
-        border-width: 3px;
-    }
-    .courseone{
-        border-style: solid;
-        border-width:1px ;
-    }
-    .coursetwo{
-        border-style: solid;
-        border-width:1px ;
-    }
-    .coursethree{
-        border-style: solid;
-        border-width:1px ;
-    }
 }
 @media (max-width: 360px){
     .education{
