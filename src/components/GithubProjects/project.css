@@ -12,37 +12,17 @@
     align-content: center;
     justify-content: center;
 }
+.project-title{
+    margin-top: 30px;
+}
 
 .projectone-link{
     text-decoration: underline;
     color: inherit;
 }
-@media(max-width: 900px){
-    .project{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 10px;
 
-    }
-    .project-wrap{
-        margin-right: 300px;
-        margin-top: 10px;
-    }
-    .projectone-wrap{
-        margin-right: 360px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    } 
-    .projectone{
-        margin-left: 40px;
-    }
-}
 
-@media(max-width: 500px){
+@media(max-width: 360px){
     .project{
         width: 100vh;
         display: flex;
