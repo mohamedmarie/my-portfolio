@@ -1,5 +1,5 @@
 import "./Intro.css"
-import Generic from "../../img/generic.png"
+import Me from "../../img/Mohamed.jpg"
 
 const Intro = () => {
   return (
@@ -24,7 +24,7 @@ const Intro = () => {
         </div>
         <div className="i-right">
             <div className="i-bg"></div>
-            <img src={Generic} alt="a generic photo" className="i-img" />
+            <img src={Me} alt="a generic photo" className="i-img" />
         </div>
     </div>
   )
