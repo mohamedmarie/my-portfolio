@@ -41,7 +41,7 @@
     border-color: blue;
     border-width: 3px;
 }
-@media (max-width: 360px){
+@media (max-width: 500px){
     .education{
         display: flex;
         height: 100vh;
@@ -50,6 +50,7 @@
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
+        
     }
     .education-wrap{
         width: 60%;
